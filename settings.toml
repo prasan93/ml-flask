@@ -1,0 +1,28 @@
+[default]
+DEBUG = true
+HOST = '0.0.0.0'
+PORT = '8000'
+
+[development]
+DEBUG = true
+POSTGRES_DB_NAME = "idea"
+POSTGRES_USER = "postgres"
+POSTGRES_PASSWORD = "Prasan123#"
+POSTGRES_HOST = "init-db"
+POSTGRES_PORT = "5432"
+
+[staging]
+DEBUG = true
+POSTGRES_DB_NAME = "idea"
+POSTGRES_USER = "postgres"
+POSTGRES_PASSWORD = "Prasan123#"
+POSTGRES_HOST = "init-db"
+POSTGRES_PORT = "5432"
+
+[production]
+DEBUG = false
+POSTGRES_DB_NAME = "idea"
+POSTGRES_USER = "postgres"
+POSTGRES_PASSWORD = "Prasan123#"
+POSTGRES_HOST = "init-db"
+POSTGRES_PORT = "5432"
