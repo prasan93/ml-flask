@@ -6,6 +6,7 @@ dynaconf==3.1.8
 Flask==3.0.3
 Flask-SQLAlchemy==3.0.1
 greenlet==3.0.3
+groq==0.5.0
 gunicorn==22.0.0
 isapi-wsgi==0.4.2
 itsdangerous==2.2.0

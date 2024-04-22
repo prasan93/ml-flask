@@ -3,6 +3,7 @@ from flask import Flask
 from flask import jsonify
 from flask_sqlalchemy import SQLAlchemy
 from routes.user import user
+from routes.chat import chat
 import os
 
 app = Flask(__name__)
@@ -19,6 +20,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = (
 db = SQLAlchemy(app)
 
 app.register_blueprint(user)
+app.register_blueprint(chat)
 embedding = None
 
 @app.errorhandler(Exception)
